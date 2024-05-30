@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullstack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-page">
+        <div class="header-container">
+            <p class="logo-text">LLOYD<span class="accent">JEFFERSON.</span></p>
+            <button class="mobile-open-btn" type="button" id="burger">
+                <svg class="mobile-open-btn-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.33398 23.027V21.6936H26.6673V23.027H5.33398ZM5.33398 16.667V15.3336H26.6673V16.667H5.33398ZM5.33398 10.307V8.97363H26.6673V10.307H5.33398Z" fill="#292929" />
+                </svg>
+            </button>
+            <nav class="nav-page">
+                <ul class="nav-menu-list">
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="#about">About me</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="#projects">Projects</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-header-container">
+                <p class="mobile-logo-text">LLOYD<span class="mobile-accent">JEFFERSON.</span></p>
+                <button class="close-menu" id="close-menu">&times;</button>
+            </div>
+            <ul class="mobile-menu-list">
+                <li class="mobile-menu-item"><a href="#about" class="mobile-link">About me</a></li>
+                <li class="mobile-menu-item"><a href="#projects" class="mobile-link">Projects</a></li>
+                <li class="mobile-menu-item"><a href="#contact" class="mobile-link">Contacts</a></li>
+            </ul>
+        </div>
+    </header>
+            <section class="hero-section">
+            <div class="intro-container">
+                <h1 class="hero-heading">HELLO, I AM <span class="highlight">FULLSTACK DEVELOPER</span></h1>
+                <button class="order-project-btn" onclick="orderProject()">ORDER THE PROJECT</button>
+                <p class="description-text">
+                I work with people all over the world to create <span class="highlight">impressive</span> and <span class="highlight">functional</span> websites that reflect each client's unique personality.
+            </p>
+            </div>
+            <div class="social-info">
+            <ul class="social-list">
+            <li class="social-item"><a class="social-link" href="https://www.instagram.com/goitclub/" target="_blank">Instagram</a></li>
+            <li class="social-item"><a class="social-link" href="https://www.youtube.com/c/GoIT" target="_blank">YouTube</a></li>
+            <li class="social-item"><a class="social-link" href="https://www.facebook.com/goITclub/" target="_blank">Facebook</a></li>
+            <li class="social-item"><a class="social-link" href="https://github.com" target="_blank">GitHub</a></li>         
+        </ul>
+    </div>
+            </section>
+                
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
